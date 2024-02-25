@@ -154,3 +154,17 @@ section {
 	margin: 0 0 10px;
 	color: #787A80;
 }
+.acor-container label {
+	cursor: pointer;
+	display: block;
+	padding: 15px 20px;
+	width: 100%;
+	color: #000000;
+	font-weight: 300;
+	box-sizing: border-box;
+	z-index: 100;
+	font-family: Verdana, sans-serif;
+	font-size: 18px;
+	margin: 0 0 5px;
+	transition: color .35s;
+}
