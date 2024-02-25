@@ -130,7 +130,7 @@ section {
 	flex-wrap: wrap;
 }
 
-.img_faq {
+.img_faq img{
 	width: 488px;
 	height: 400px;
 }
@@ -164,7 +164,7 @@ section {
 	cursor: pointer;
 	display: block;
 	padding: 15px 20px;
-	width: 100%;
+	width: 60%;
 	color: #000000;
 	font-weight: 300;
 	box-sizing: border-box;
@@ -196,6 +196,7 @@ section {
 	transition: transform .35s;
 	transform: rotate(90deg);
 	color: #7772F1;
+
 }
 
 .acor-container input:checked+label+.acor-body {
@@ -409,6 +410,15 @@ section {
 
 
 /* tab */
+.tab_tit{
+	color: #1E212C;
+	font-family: Lato;
+	font-size: 46px;
+	font-weight: 900;
+	line-height: 60px;
+	text-align: center;
+	margin-bottom: 40px;
+}
 .tabs {
 	display: flex;
 	margin-bottom: 50px;
@@ -510,4 +520,7 @@ img {
 	background: #fc5a5a;
 	width: 175.48px;
 	height: 43.43px;
+	font-size: 30px;
+	color: #ffffff;
+	border-radius: 10px;
 }
