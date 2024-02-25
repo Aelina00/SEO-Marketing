@@ -394,3 +394,10 @@ section {
 		color: #000000;
 	}
 }
+
+
+/* tab */
+.tabs {
+	display: flex;
+	margin-bottom: 50px;
+}
