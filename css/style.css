@@ -415,3 +415,8 @@ section {
 	text-align: center;
 	color: #9a9ca5;
 }
+.tab.active {
+	border: 1px solid #7772f1;
+	width: 246px;
+	border-radius: 4px;
+}
