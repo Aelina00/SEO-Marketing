@@ -420,3 +420,28 @@ section {
 	width: 246px;
 	border-radius: 4px;
 }
+.tab-content {
+	display: none;
+	padding: 20px;
+}
+
+.tab-content.active {
+	display: block;
+}
+
+ol {
+	list-style: none;
+	padding: 0;
+}
+ol > li {
+	padding-left: 20px;
+	position: relative;
+	margin: 10px;
+}
+ol > li:before {
+	content: '✔';
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: #7772f1;
+}
