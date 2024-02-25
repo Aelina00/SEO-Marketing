@@ -127,3 +127,7 @@ section {
 	justify-content: space-between;
 	flex-wrap: wrap;
 }
+.img_faq {
+	width: 488px;
+	height: 400px;
+}
