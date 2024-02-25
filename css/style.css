@@ -274,3 +274,35 @@ section {
 	margin-bottom: 20px;
 
 }
+.price_dollar:hover {
+	color: #03CEA4;
+
+}
+
+.prices {
+	width: 191px;
+	height: 230px;
+	align-items: center;
+	line-height: 30px;
+	margin: 0 auto;
+}
+
+.prices:hover {
+	color: #ffffff;
+}
+
+.btn_empty {
+	width: 146px;
+	height: 44px;
+	padding: 0px, 32px, 0px, 32px;
+	border-radius: 4px;
+	gap: 10px;
+	border: 1px solid #7772F1;
+	margin: 0 auto;
+	margin-top: 30px;
+	transition: .5s;
+}
+.btn_empty:hover{
+	background: #7772F1;
+	color: #ffffff;
+}
