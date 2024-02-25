@@ -106,3 +106,12 @@ section {
 }
 
 /* faq */
+.faq_tit {
+	color: #1E212C;
+	font-family: Lato;
+	font-size: 46px;
+	font-weight: 900;
+	line-height: 60px;
+	letter-spacing: 0em;
+	text-align: left;
+}
