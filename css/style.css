@@ -234,3 +234,28 @@ section {
 	box-shadow: 0px 80px 80px -20px #9A9CA514;
 	transition: .5s;
 }
+.price_card:hover {
+	background: #1E212C;
+	border: 1px solid #03CEA4;
+	color: #ffffff;
+}
+
+.price_title {
+	color: #1E212C;
+	font-family: Lato;
+	font-size: 46px;
+	font-weight: 900;
+	line-height: 60px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.price_tit {
+	font-family: Lato;
+	font-size: 28px;
+	font-weight: 700;
+	line-height: 42px;
+	text-align: center;
+	margin-top: 35px;
+	color: #000;
+}
