@@ -215,3 +215,8 @@ section {
 	text-align: center;
 	color: #ffffff;
 }
+
+/* price */
+.price_cards {
+	width: (100% / 3);
+}
