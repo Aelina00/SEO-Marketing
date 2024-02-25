@@ -445,3 +445,26 @@ ol > li:before {
 	left: 0;
 	color: #7772f1;
 }
+.tab_left {
+	flex: 1;
+	max-width: 390px;
+}
+
+.tab_right {
+	text-align: right;
+	position: relative;
+}
+
+img {
+	width: 100%;
+	display: block;
+}
+
+.tab_img {
+	max-width: 700px;
+	width: 100%;
+}
+
+.con {
+	align-items: center;
+}
