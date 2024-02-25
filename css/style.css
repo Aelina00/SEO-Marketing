@@ -185,3 +185,15 @@ section {
 	color: #000000;
 
 }
+.acor-container input:checked+label:before {
+	transition: transform .35s;
+	transform: rotate(90deg);
+	color: #7772F1;
+}
+
+.acor-container input:checked+label+.acor-body {
+	height: auto;
+	margin-top: -5px;
+	color: #000;
+	padding: 20px 30px 10px;
+}
