@@ -401,3 +401,17 @@ section {
 	display: flex;
 	margin-bottom: 50px;
 }
+
+.tab {
+	flex: 1;
+	padding: 10px;
+	cursor: pointer;
+	text-align: center;
+	font-family: Lato;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 26px;
+	letter-spacing: 0em;
+	text-align: center;
+	color: #9a9ca5;
+}
