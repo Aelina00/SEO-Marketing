@@ -70,30 +70,38 @@ textarea {
 	display: block;
 	resize: none;
 }
-.container{
+
+.container {
 	max-width: 1325px;
 	width: 100%;
 	min-width: 320px;
 	margin: 0 auto;
 	padding: 0 15px;
 }
-.dn{
+
+.dn {
 	display: none;
 }
-section{
+
+section {
 	padding: 100px 0;
 }
-.dib{
+
+.dib {
 	display: inline-block;
 }
-.hover{
+
+.hover {
 	transition: 0.3s;
 }
-.hover:hover{
+
+.hover:hover {
 	color: #BE963F;
 }
-.flex{
+
+.flex {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
+
