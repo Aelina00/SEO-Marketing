@@ -259,3 +259,18 @@ section {
 	margin-top: 35px;
 	color: #000;
 }
+.price_tit:hover {
+	color: #ffffff;
+}
+
+.price_dollar {
+	font-family: Lato;
+	font-size: 46px;
+	font-weight: 900;
+	line-height: 60px;
+	text-align: center;
+	color: #7772F1;
+	border-bottom: 1px solid;
+	margin-bottom: 20px;
+
+}
