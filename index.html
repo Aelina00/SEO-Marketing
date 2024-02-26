@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,8 +12,11 @@
         href="https: //fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
         rel="stylesheet">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/media.css">
     <title>SEO-Marketing</title>
 </head>
+
 <body>
     <header>
         <div class="container">
@@ -153,6 +157,56 @@
         </div>
     </section>
 
+    <section class="tabSection">
+        <div class="container">
+            <div class="tab_tit">Our services</div>
+            <div class="tab_container">
+                <div class="tabs">
+                    <div class="tab active" onclick="openTab(event, 'tab1')">Social Media</div>
+                    <div class="tab" onclick="openTab(event, 'tab2')">SEO</div>
+                    <div class="tab" onclick="openTab(event, 'tab3')">Research</div>
+                    <div class="tab" onclick="openTab(event, 'tab4')">Content & PR</div>
+                    <div class="tab" onclick="openTab(event, 'tab5')">Payed Traffic</div>
+                </div>
+                <div class="tab_content">
+                    <div id="tab1" class="tab-content active">
+                        <div class="con flex">
+                            <div class="tab_left">
+                                <h3>Complete Workflow For Any SEO Professional</h3>
+                                <ol>
+                                    <li>Nibh sapien volutpat lacus augue.</li>
+                                    <li>Nibh sapien volutpat lacus augue.</li>
+                                    <li>Nibh sapien volutpat lacus augue.</li>
+                                </ol>
+                            </div>
+                            <div class="tab_right">
+                                <div class="tab_img">
+                                    <img src="./img/icons/tab_img.png" alt="" />
+                                </div>
+                                <button>subscribe</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tab2" class="tab-content">
+                        <h2>Содержимое таба 2</h2>
+                        <p>Это текст второго таба.</p>
+                    </div>
+                    <div id="tab3" class="tab-content">
+                        <h2>Содержимое таба 3</h2>
+                        <p>Это текст третьего таба.</p>
+                    </div>
+                    <div id="tab4" class="tab-content">
+                        <h2>Содержимое таба 4</h2>
+                        <p>Это текст четвертого таба.</p>
+                    </div>
+                    <div id="tab5" class="tab-content">
+                        <h2>Содержимое таба 5</h2>
+                        <p>Это текст пятого таба.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section class="agency">
         <div class="container">
@@ -225,14 +279,188 @@
         </div>
     </section>
 
-    <footer>
+    <section class="faq">
         <div class="container">
-
+            <h2 class="faq_tit">Freequently Ask Questions</h2>
+            <div class="faq">
+                <div class="acor-container">
+                    <input type="radio" name="acor" id="acor1" checked="checked" />
+                    <label for="acor1"><b>Aliquet lectus urna viverra in odio?</b></label>
+                    <div class="acor-body">
+                        <p>Adipiscing nunc arcu enim elit mattis eu placerat proin. Imperdiet elementum faucibus
+                            dignissim purus. Fusce parturient diam magna ullamcorper morbi semper massa ac
+                            facilisis.
+                        </p>
+                    </div>
+                    <input type="radio" name="acor" id="acor2" checked="checked" />
+                    <label for="acor2"><b>Orci commodo, viverra orci mollis ut euismod?</b></label>
+                    <div class="acor-body">
+                        <p>Adipiscing nunc arcu enim elit mattis eu placerat proin. Imperdiet elementum faucibus
+                            dignissim purus. Fusce parturient diam magna ullamcorper morbi semper massa ac
+                            facilisis.
+                        </p>
+                    </div>
+                    <input type="radio" name="acor" id="acor3" checked="checked" />
+                    <label for="acor3"><b>Sagittis vitae facilisi rutrum amet mauris quisque vel convallis?</b></label>
+                    <div class="acor-body">
+                        <p>Adipiscing nunc arcu enim elit mattis eu placerat proin. Imperdiet elementum faucibus
+                            dignissim purus. Fusce parturient diam magna ullamcorper morbi semper massa ac
+                            facilisis.
+                        </p>
+                    </div>
+                    <input type="radio" name="acor" id="acor4" checked="checked" />
+                    <label for="acor4"><b>In id dolor quis nunc, urna hendrerit pharetra?</b></label>
+                    <div class="acor-body">
+                        <p>Adipiscing nunc arcu enim elit mattis eu placerat proin. Imperdiet elementum faucibus
+                            dignissim purus. Fusce parturient diam magna ullamcorper morbi semper massa ac
+                            facilisis.
+                        </p>
+                    </div>
+                    <button class="btn_all">Discover more </button>
+                </div>
+            </div>
+            <div class="img_faq">
+                <img src="./img/icons/faq_img.png" alt="">
+            </div>
         </div>
-    </footer>
+    </section>
+    <section class="explore">
+        <div class="container">
+            <h2 class="price_title">Flexible pricing plans</h2>
 
+            <div class="row flip-boxes flex">
+                <div class="col-md-3 col-sm-4 col-8 flip-box">
+                    <div class="front" style="background-image: url(img/octopus.png);">
+                        <div class="content text-center">
+                            <div class="price_card">
+                                <h3 class="price_tit">Optimal</h3>
+                                <div class="price_dollar">$64
+                                    /mon</div>
+                                <ul class="prices">
+                                    <li>Advanced Analytics</li>
+                                    <li>Change Management</li>
+                                    <li>Corporate Finance</li>
+                                    <li>One Way Link Building </li>
+                                    <li>Social Media Marketing</li>
+                                    <li>Strategy & Marketing</li>
+                                    <li>Information Technology</li>
+                                </ul>
+                                <button class="btn_empty">Choose plan</button>
+                            </div>
+                            <span class="click-for-more">
+                            </span>
+                        </div>
+                    </div>
+                    <div class="back">
+                        <div class="content">
+                            <div class="price_card">
+                                <h3 class="price_tit">Optimal</h3>
+                                <div class="price_dollar">$64
+                                    /mon</div>
+                                <ul class="prices">
+                                    <li>Advanced Analytics</li>
+                                    <li>Change Management</li>
+                                    <li>Corporate Finance</li>
+                                    <li>One Way Link Building </li>
+                                    <li>Social Media Marketing</li>
+                                    <li>Strategy & Marketing</li>
+                                    <li>Information Technology</li>
+                                </ul>
+                                <button class="btn_empty">Choose plan</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-4 col-6 flip-box">
+                    <div class="front" style="background-image: url(img/pets.png);">
+                        <div class="content">
+                            <div class="price_card">
+                                <h3 class="price_tit">Optimal</h3>
+                                <div class="price_dollar">$64
+                                    /mon</div>
+                                <ul class="prices">
+                                    <li>Advanced Analytics</li>
+                                    <li>Change Management</li>
+                                    <li>Corporate Finance</li>
+                                    <li>One Way Link Building </li>
+                                    <li>Social Media Marketing</li>
+                                    <li>Strategy & Marketing</li>
+                                    <li>Information Technology</li>
+                                </ul>
+                                <button class="btn_empty">Choose plan</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="back">
+                        <div class="content">
+                            <div class="price_card">
+                                <h3 class="price_tit">Optimal</h3>
+                                <div class="price_dollar">$64
+                                    /mon</div>
+                                <ul class="prices">
+                                    <li>Advanced Analytics</li>
+                                    <li>Change Management</li>
+                                    <li>Corporate Finance</li>
+                                    <li>One Way Link Building </li>
+                                    <li>Social Media Marketing</li>
+                                    <li>Strategy & Marketing</li>
+                                    <li>Information Technology</li>
+                                </ul>
+                                <button class="btn_empty">Choose plan</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-6 flip-box">
+                    <div class="front" style="background-image: url(img/books.png);">
+                        <div class="content">
+                            <div class="price_card">
+                                <h3 class="price_tit">Optimal</h3>
+                                <div class="price_dollar">$64
+                                    /mon</div>
+                                <ul class="prices">
+                                    <li>Advanced Analytics</li>
+                                    <li>Change Management</li>
+                                    <li>Corporate Finance</li>
+                                    <li>One Way Link Building </li>
+                                    <li>Social Media Marketing</li>
+                                    <li>Strategy & Marketing</li>
+                                    <li>Information Technology</li>
+                                </ul>
+                                <button class="btn_empty">Choose plan</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="back">
+                        <div class="content">
+                            <div class="price_card">
+                                <h3 class="price_tit">Optimal</h3>
+                                <div class="price_dollar">$64
+                                    /mon</div>
+                                <ul class="prices">
+                                    <li>Advanced Analytics</li>
+                                    <li>Change Management</li>
+                                    <li>Corporate Finance</li>
+                                    <li>One Way Link Building </li>
+                                    <li>Social Media Marketing</li>
+                                    <li>Strategy & Marketing</li>
+                                    <li>Information Technology</li>
+                                </ul>
+                                <button class="btn_empty">Choose plan</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
 
     <script src="core.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 </body>
+
 </html>
