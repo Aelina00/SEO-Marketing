@@ -1,0 +1,79 @@
+body {
+    font-size: 14px;
+    line-height: 19px;
+    color: #242424;
+    width: 100%;
+    font-family: 'Lato';
+}
+
+.inputs {
+    background: url(../img/background.jpeg)50% 50%/cover no-repeat;
+    margin-bottom: 135px;
+}
+
+.con_input_main {
+    width: 285px;
+}
+
+.con_txt {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+
+.seo {
+    color: rgb(255, 255, 255);
+    font-family: Lato;
+    font-size: 46px;
+    font-weight: 900;
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-right: 345px;
+    display: flex;
+}
+
+.con_input {
+    opacity: 30%;
+    color: white;
+    padding: 13px 0 13px 16px;
+    border: 1px solid #fff;
+}
+
+.con_inputs {
+    margin-bottom: 24px;
+}
+
+.con_right {
+    padding-left: 975px;
+}
+
+.con_input_bottom {
+    margin-bottom: 48px;
+}
+
+.con_btn {
+    background: #7772F1;
+    width: 220px;
+    height: 52px;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    float: right;
+
+}
+
+.con_txt_bottom {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+    max-width: 287px;
+    padding-bottom: 80px;
+}
