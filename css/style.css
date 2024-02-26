@@ -124,13 +124,14 @@ section {
 	border-radius: 4px;
 }
 
+
 .faq {
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
 }
 
-.img_faq img{
+.img_faq img {
 	width: 488px;
 	height: 400px;
 }
@@ -410,7 +411,7 @@ section {
 
 
 /* tab */
-.tab_tit{
+.tab_tit {
 	color: #1E212C;
 	font-family: Lato;
 	font-size: 46px;
@@ -419,6 +420,7 @@ section {
 	text-align: center;
 	margin-bottom: 40px;
 }
+
 .tabs {
 	display: flex;
 	margin-bottom: 50px;
