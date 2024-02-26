@@ -147,3 +147,19 @@ header .logos {
     border: 1px solid rgb(255, 255, 255);
     border-radius: 4px;
 }
+.illustration img {
+    width: 500px;
+}
+
+new {
+    color: rgb(119, 114, 241);
+}
+.play-video img {
+    width: 16px;
+}
+
+.play {
+    padding: 18px;
+    border-radius: 50%;
+    background: rgb(119, 114, 241);
+}
