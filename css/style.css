@@ -138,3 +138,6 @@ header .logos {
     margin-top: 200px;
     margin-bottom: 60px;
 }
+.intro {
+    background-image: url(img/Header.png);
+}
