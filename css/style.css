@@ -97,3 +97,22 @@ section{
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
+
+
+
+header {
+    background-color: rgb(31, 34, 50);
+    padding-top: 30px;
+}
+
+header .logos {
+    justify-content: center;
+}
+
+.logo {
+    width: 22px;
+}
+
+.create {
+    width: 130px;
+}
