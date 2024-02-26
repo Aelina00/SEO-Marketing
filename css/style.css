@@ -180,7 +180,11 @@ new {
     border-radius: 50%;
     background-color: rgb(119, 114, 241);
 }
-
+.anim-hint__point img{
+    display: block;
+    margin-left: 14px;
+    padding-top: 9px;
+}
 .anim-hint__point::before {
     content: "";
     position: absolute;
