@@ -257,3 +257,16 @@ new {
     justify-content: start;
     gap: 40px;
 }
+.sec_p {
+    color: rgb(255, 255, 255);
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.play-video .sec_p{
+    margin-top: 9px;
+    margin-left: 74px;
+}
