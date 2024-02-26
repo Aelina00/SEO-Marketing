@@ -124,16 +124,10 @@ section {
 	border-radius: 4px;
 }
 
-
 .faq {
-	display: flex;
-	justify-content: space-between;
-	flex-wrap: wrap;
-}
-
-.img_faq img {
-	width: 488px;
-	height: 400px;
+	background: url(/img/icons/faq_bg.png);
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 /* acordion */
@@ -207,22 +201,20 @@ section {
 	padding: 20px 30px 10px;
 }
 
-.btn_all {
-	width: 200px;
-	height: 50px;
-	top: 4307px;
-	left: 376px;
-	padding: 0px, 32px, 0px, 32px;
-	border-radius: 4px;
-	gap: 10px;
-	background: #7772F1;
-	font-family: Lato;
-	font-size: 14px;
-	font-weight: 700;
-	line-height: 44px;
-	letter-spacing: 0.5px;
-	text-align: center;
-	color: #ffffff;
+.btn { 
+    color: rgb(255, 255, 255); 
+    font-size: 16px; 
+    font-weight: 700; 
+    line-height: 52px; 
+    text-align: center; 
+    border-radius: 4px; 
+    background: rgb(119, 114, 241); 
+    width: 200px; 
+	transition: .5s;
+}
+.btn:hover {
+	background: #2f2d65;
+	transform: scale(1.1);
 }
 
 /* price */
@@ -242,7 +234,6 @@ section {
 	box-shadow: 0px 12px 10px -6px #9A9CA50A;
 	box-shadow: 0px 30px 24px -10px #9A9CA50D;
 	box-shadow: 0px 80px 80px -20px #9A9CA514;
-	transition: .5s;
 }
 
 .price_card:hover {
@@ -251,6 +242,18 @@ section {
 	color: #ffffff;
 }
 
+.price_card:hover h3 {
+	background: #1E212C;
+	color: #ffffff;
+}
+.price_card:hover .price_dollar{
+	background: #1E212C;
+	color: #03CEA4;
+}
+.price_card:hover .transparent__btn{
+	background: #7772f1;
+color: #ffffff;
+}
 .price_title {
 	color: #1E212C;
 	font-family: Lato;
@@ -271,9 +274,6 @@ section {
 	color: #000;
 }
 
-.price_tit:hover {
-	color: #ffffff;
-}
 
 .price_dollar {
 	font-family: Lato;
@@ -284,12 +284,6 @@ section {
 	color: #7772F1;
 	border-bottom: 1px solid;
 	margin-bottom: 20px;
-
-}
-
-.price_dollar:hover {
-	color: #03CEA4;
-
 }
 
 .prices {
@@ -300,26 +294,25 @@ section {
 	margin: 0 auto;
 }
 
-.prices:hover {
-	color: #ffffff;
-}
-
-.btn_empty {
-	width: 146px;
-	height: 44px;
-	padding: 0px, 32px, 0px, 32px;
-	border-radius: 4px;
-	gap: 10px;
+.transparent__btn { 
+    background-color: transparent; 
+    box-sizing: border-box; 
+    border: 1px solid rgb(255, 255, 255); 
+    border-radius: 4px; 
 	border: 1px solid #7772F1;
-	margin: 0 auto;
-	margin-top: 30px;
+    font-weight: 700; 
+    line-height: 52px; 
+    border-radius: 4px; 
+    width: 200px; 
 	transition: .5s;
+
+    text-align: center; 
 }
 
-.btn_empty:hover {
+/* .transparent__btn:hover {
 	background: #7772F1;
 	color: #ffffff;
-}
+} */
 
 /* 3d */
 .flip_txt {
@@ -525,4 +518,10 @@ img {
 	font-size: 30px;
 	color: #ffffff;
 	border-radius: 10px;
+	transition: .5s;
+}
+
+.tab_right button:hover {
+	background: #f30000;
+	transform: scale(1.1);
 }
