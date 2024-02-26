@@ -126,3 +126,15 @@ header .logos {
     background: rgb(119, 114, 241);
     width: 200px;
 }
+.sec_tit {
+    font-family: "Lato";
+    width: 701px;
+    color: rgb(255, 255, 255);
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 130%;
+    letter-spacing: 1px;
+    text-align: left;
+    margin-top: 200px;
+    margin-bottom: 60px;
+}
