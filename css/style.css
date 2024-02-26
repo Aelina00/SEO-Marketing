@@ -145,7 +145,7 @@ header .logos {
     margin-bottom: 60px;
 }
 .intro {
-    background-image: url(img/Header.png);
+    background-image: url(../img/Header.png);
 }
 .transparent__btn {
     background-color: transparent;
@@ -273,7 +273,6 @@ new {
     text-align: left;
 }
 .play-video .sec_p{
-    margin-top: 9px;
     margin-left: 74px;
 }
 .features {
@@ -755,6 +754,10 @@ nav.menu {
     display: flex;
     justify-content: center;
 }
+
+
+
+
 /* faq */
 .faq_tit {
 	color: #1E212C;
@@ -1175,4 +1178,18 @@ img {
 	font-size: 30px;
 	color: #ffffff;
 	border-radius: 10px;
+}
+
+#video-container {
+    margin-top: 70px;
+   
+    width: 500px;
+}
+
+.u-none {
+    display: none;
+}
+
+video{
+    border-radius: 50px;
 }
